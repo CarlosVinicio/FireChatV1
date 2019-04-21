@@ -32,7 +32,6 @@ export class ChatComponent implements OnInit {
       return;
     }
 
-
     let message: MessageInterface = {
       name: this._chatService.user.displayName,
       message: this.messageText,
